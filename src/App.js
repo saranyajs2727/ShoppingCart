@@ -13,10 +13,10 @@ function App() {
        <Route  path='/' exact>
          <Home />
        </Route>
-       <Route path='/ShoppingApp/' exact>
+       <Route path='https://saranyajs2727.github.io/ShoppingCart/' exact>
          <Home />
        </Route>
-       <Route path='/ShoppingApp/cart/' exact>
+       <Route path='https://saranyajs2727.github.io/ShoppingCart/cart' exact>
        <Cart />
      </Route>
        </div>
