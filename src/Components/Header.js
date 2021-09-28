@@ -24,7 +24,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/ShoppingApp/">Shopping cart</Link>
+          <Link to="/ShoppingCart/">Shopping cart</Link>
         </Navbar.Brand>
         {useLocation().pathname.split("/")[1] !== "cart" && (
           <Navbar.Text className="search">
@@ -76,7 +76,7 @@ const Header = () => {
                       />
                     </span>
                   ))}
-                  <Link to="/ShoppingApp/cart">
+                  <Link to="/ShoppingCart/cart">
                     <Button style={{ width: "95%", margin: "0 10px" }}>
                       Go To Cart
                     </Button>
