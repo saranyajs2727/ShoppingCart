@@ -10,13 +10,13 @@ function App() {
     <BrowserRouter>
        <Header />
        <div>
-       <Route path='/' exact>
+       <Route  path='/' exact>
          <Home />
        </Route>
-       <Route path='/ShoppingApp' exact>
+       <Route path='/ShoppingApp/' exact>
          <Home />
        </Route>
-       <Route path='/cart' exact>
+       <Route path='/ShoppingApp/cart/' exact>
        <Cart />
      </Route>
        </div>
